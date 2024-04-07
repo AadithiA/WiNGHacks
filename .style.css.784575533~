@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rozha+One&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* name */
+.navbar-brand {
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 200;
+  color:white;
+  letter-spacing: 1px;
+  cursor: pointers;
+  font-family: 'Rozha One', serif;
+}
+
+.nav-link{
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #DEEFFF;
+}
+
+.container-fluid-nav div{
+  display: flex;
+justify-content: space-around;
+}
+
+.collapse navbar-collapse d-flex justify-content-center{
+  color: white;
+}
+
+.Web-Tittle {
+  font-family: 'Rozha One', serif;
+  text-align:left;
+  margin-left: 45px;
+  margin-top: 10px; 
+}
+
+.navbar-background{
+  background-color: #34687f
+}
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left p {
+  animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+  }
+}
+
+.format{
+  width: 30%
+}
+
+h1{
+  font-family: 'Rozha One', serif;
+  text-align: center;
+  margin-top: 2em;
+  }
+
+#results, #results1, #results2 {
+  font-family: serif;
+  font-size: 30px
+}
+
+.format{
+  font-size: 30px
+  
+}
+
+

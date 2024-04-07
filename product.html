@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapySpace</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-background">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="ORAGNGELOGO.png" alt="Logo" width="48" height="42" class="d-inline-block me-3">
+      CAPYSPACE
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-left" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Journal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="anxiety.html">Anxiety</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bipolar.html">Bipolar Disorder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="depression.html">Depression</a>
+        </li>
+
+      </ul>
+      </form>
+    </div>
+  </div>
+</nav>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+
+    <style>
+        body{text-align:center; }
+        /* background-color: lightblue; */
+        #enterDetails{float:left; width: 50%; background-color: lightblue; color: black;}
+        #DiaryDetails{float:left; width: 50%; background-color: lightblue; color: black;}
+        input{width: 120px;}
+
+    </style>
+</head>
+<body>
+    <!-- HTML structure for diary entry -->
+    <div>
+        <h1 style="font-family: 'Rozha One', serif; text-align: center; font-size: 60px;">My Journal</h1>
+      <div>
+        <img src="capyread1.png" alt="capy?1" width="200px"><img src="capyread2.png" alt="capy?2" width="200px">
+          <h3 style="font-family: 'Arial', serif; text-align: center; font-size: 36px">Instructions</h3>
+        <h6 style="font-family: 'Arial', serif; text-align: center;font-size: 20px; ">Enter your Name, Phone Number, and School ID (If Applicable)</h6>
+        <h7 style="font-family: 'Arial', serif; text-align: center;font-size: 20px;">To create your first entry, type in your personal details, write you message in the journal and create</h7><br>
+        <h7 style="font-family: 'Arial', serif; text-align: center;font-size: 20px;">To add more entries, retype in your personal details, and click Update</h7><br>
+        <h7 style="font-family: 'Arial', serif; text-align: center;font-size: 20px;">To see your past entries click Get Entries</h7><br>
+        <h7 style="font-family: 'Arial', serif; text-align: center;font-size: 20px;">To Delete Journal, Delete Diary</h7><br>
+
+          
+          
+        
+
+          <div id="enterDetails">
+              <!-- Existing code for entering details -->
+          </div>
+
+          <div id="DiaryDetails">
+              <!-- Existing code for diary entry -->
+          </div>
+
+          <!-- JavaScript code -->
+          <script type="module">
+              // JavaScript code here
+          </script>
+      </div>
+        <!-- <div id="enterDetails">
+            <h1>Enter Details</h1>   
+            <h4>Name <input id="enterName" type="text"></h4>
+            <h4>Phone Number <input id="enterNumber" type="number"></h4> 
+            <h4>ID <input id="enterID" type="text"></h4>             
+            <br><br><br>
+            
+            <br><br><br>
+        </div> -->
+
+      <div id="enterDetails">
+          <!-- Existing code for entering details -->
+          <p></p>
+          <p></p>
+          
+          <h1 style="font-family: 'Rozha One', serif; text-align: center;">Enter Personal Details</h1>
+          <h4 style="font-family: 'Rozha One', serif; text-align: center;">Name <input id="enterName" type="text"></h4>
+          <h4 style="font-family: 'Rozha One', serif; text-align: center;">Phone Number <input id="enterNumber" type="number"></h4> 
+          <h4 style="font-family: 'Rozha One', serif; text-align: center;">ID <input id="enterID" type="text"></h4>             
+          <br><br><br><br><br><br><br><br><br><br><br>
+        
+      </div>
+
+      
+
+        <!-- <div id="DiaryDetails">
+            <h1> Diary Write :</h1>
+            <!-- // this is writing area the line below -->
+            <!-- <textarea id="diaryEntry" rows="6" cols="49" type="text"></textarea><br> 
+            
+            <!-- button stuff below -->
+            <!-- <button id="create">CREATE</button>
+            <button id="update">UPDATE</button>
+            <!-- <button id="updateEntry">Update Entry</button> -->
+            <!-- <button id="getEntries">Get Entries</button>
+            <button id="deleteDiary">Delete Diary</button><br><br><br><br><br>
+            
+        </div> --> 
+      <div id="DiaryDetails">
+          <!-- Existing code for diary entry -->
+          <p></p>
+          <h1 style="font-family: 'Rozha One', serif;"> Write in Journal :</h1>
+          <!-- // this is writing area the line below -->
+          <textarea id="diaryEntry" rows="7" cols="40" style="font-family: 'Rozha One', serif;" type="text"></textarea><br> 
+
+          <!-- button stuff below -->
+          <button id="create" style="font-family: 'Rozha One', serif;">Create</button>
+          <button id="update" style="font-family: 'Rozha One', serif;">Update</button>
+          <!-- <button id="updateEntry">Update Entry</button> -->
+          <button id="getEntries" style="font-family: 'Rozha One', serif;">Get Entries</button>
+          <button id="deleteDiary" style="font-family: 'Rozha One', serif;">Delete Journal</button><br><br><br><br><br><br><br><br><br>
+      </div>
+ 
+        
+
+    <!-- JavaScript code -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyADDB2Er8xKNhM2MHjAuq2AuwSbW7BAack",
+          authDomain: "diary-801d2.firebaseapp.com",
+          databaseURL: "https://diary-801d2-default-rtdb.firebaseio.com",
+          projectId: "diary-801d2",
+          storageBucket: "diary-801d2.appspot.com",
+          messagingSenderId: "630725925688",
+          appId: "1:630725925688:web:9a11d4afbbf51b5406ffcd",
+          measurementId: "G-L5V9FYV5RM"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        import{getDatabase, set, get, update, remove, ref, child}//ref= reference
+        from "https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js"
+      
+        const db =getDatabase();
+
+        
+
+        // Elements from HTML
+        var enterName = document.querySelector("#enterName"); 
+        var enterNumber = document.querySelector("#enterNumber"); 
+        var enterID = document.querySelector("#enterID");
+        
+
+        var diaryEntry = document.querySelector("#diaryEntry"); //text box 
+        var newEntry =document.querySelector("#diaryEntry");
+
+
+
+        var updateEntryBtn = document.querySelector("#updateEntry");
+        var getEntriesBtn = document.querySelector("#getEntries");
+        var deleteEntryBtn = document.querySelector("#deleteDiary");
+        var createButton =document.querySelector("#create");
+        var updateButton =document.querySelector("#update");
+
+        function createData(){
+            set(ref(db, "People/" + enterNumber.value), {                     //db reference to getDatabase()
+                Name: enterName.value,
+                Number: enterNumber.value,
+                Id: enterID.value,
+                diaryEntry:  diaryEntry.value,
+            })
+            .then(()=>{
+                alert("Data added successfully!")
+            })
+            .catch((error)=>{
+                alert(error)
+            });
+        }
+
+        function findData(){
+            const dbref = ref(db);
+            get(child(dbref, "People/"+ enterNumber.value)) //people is the overarching folder
+            .then((snapshot)=>{
+                if(snapshot.exists()){
+                    // enterName.innerHTML ="Name:" + snapshot.val().Name;
+                    // enterNumber.innerHTML ="Number:" + snapshot.val().Number;
+                    // enterID.innerHTML ="ID:" + snapshot.val().Id;
+                    // diaryEntry.innerHTML="Diary Entyr:"+snapshot.val().diaryEntry;
+
+                    enterName.value = snapshot.val().Name;
+                    enterNumber.value = snapshot.val().Number;
+                    enterID.value = snapshot.val().Id;
+                    diaryEntry.value = snapshot.val().diaryEntry;
+
+                }
+                else{
+                    alert("No Data found");
+                }
+            })
+            .catch((error)=>{
+                alert(error)
+            })
+        }
+
+        // function updatetData(){
+     
+        //     update(ref(db,"People/"+ enterNumber.value), {
+        //         Name: enterName.value,
+        //         Age: enterAge.value,
+        //         diaryEntry: diaryEntry.value,
+        //     })
+        //     .then(()=>{
+        //         alert("Data updated successfully!");
+        //     })
+        //     .cathc((error)=>{
+        //         alert(error);
+        //     });
+        // }
+
+        function updatetData() {
+    const dbref = ref(db, "People/" + enterNumber.value);
+    
+    get(dbref)
+        .then((snapshot) => {
+            if (snapshot.exists()) {
+                let currentEntry = snapshot.val().diaryEntry || ""; // Get current diary entry or initialize to empty string if it doesn't exist
+                let newContent = diaryEntry.value;
+
+                // Append new content to the existing diary entry
+                let updatedDiary = currentEntry ? `${currentEntry}\n${newContent}` : newContent;
+
+                // Update the diary entry in Firebase
+                update(dbref, { diaryEntry: updatedDiary })
+                    .then(() => {
+                        alert("Data updated successfully!");
+                    })
+                    .catch((error) => {
+                        alert(error);
+                    });
+            } else {
+                alert("No Data found");
+            }
+        })
+        .catch((error) => {
+            alert(error);
+        });
+}    
+
+    
+    
+        function deleteDiary(){
+            remove(ref(db,"People/" + enterNumber.value))
+            .then(()=>{
+                alert("Data removed successfully!");
+                })
+                .cath((error)=>{
+                    alert(error);
+                });
+        }
+
+        createButton.addEventListener("click", createData);
+        getEntriesBtn.addEventListener('click', findData);
+        updateButton.addEventListener('click', updatetData);
+        deleteEntryBtn.addEventListener('click', deleteDiary);
+
+        
+
+    </script>
+</body>
+</html>
